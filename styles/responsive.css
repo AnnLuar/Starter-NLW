@@ -1,0 +1,46 @@
+/* responsive */
+
+/* largura dos 0 aos 900px funciona este estilo */
+@media (max-width: 900px) {
+    #page-home {
+        background-position-x: 70vw;
+    }
+
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header a {
+        position: absolute;
+        bottom: 48px;
+
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #page-home main {
+        align-items: center;
+    }
+}
+
+/* largura dos 1700px ou mais funciona este estilo */
+@media (min-width: 1700px) {
+    #page-home {
+        background-position-x: 40vw;
+    }
+}
+
+/* altura dos 0 aos 760px, funciona este estilo */
+@media (max-height: 760px) {
+    #page-home {
+        background-position-y: 100px;
+    }
+}
+
+/* altura dos 1000px ou mais, funciona este estilo */
+@media (min-height: 1000px) {
+    #page-home {
+        background-position-y: 340px;
+    }
+}
