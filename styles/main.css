@@ -8,8 +8,9 @@
 
 /* O * chama todos os elementos/selectores */
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0;   /* margin é a margem da borda para fora da caixa */
+    padding: 0;  /* padding é a margem da borda para dentro da caixa */
+    box-sizing: border-box; /* a caixa é medida pelas bordas */
 }
 
 html {

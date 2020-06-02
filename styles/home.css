@@ -35,6 +35,7 @@ Display Elements Inside other element
     display: flex;
     color: var(--title-color);
     font-weight: 700;
+    align-items: center;
 }
 
 #page-home header a span {
